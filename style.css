@@ -1,0 +1,43 @@
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+position: relative;
+top: 5rem;
+}
+.color{
+  height: 6rem;
+  width: 6rem;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#gray{
+  color: gray;
+}
+#orange{
+  background-color: orange;
+}
+#white{
+  background-color: white;
+}
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+}
+@media only screen and (max-width: 600px) {
+  h2{
+    font-size: 1rem;
+  }
+}
